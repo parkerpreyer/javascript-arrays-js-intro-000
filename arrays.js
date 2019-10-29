@@ -26,3 +26,18 @@ function destructivelyRemoveElementFromBeginningOfArray(arr) {
   arr.shift()
   return arr
 }
+
+function removeElementFromBeginningOfArray(arr) {
+  const arr2 = arr.slice(1)
+  return arr2
+}
+
+function destructivelyAddElementToEndOfArray(arr) {
+  arr.pop()
+  return arr
+}
+
+function removeElementFromEndOfArray(arr) {
+  const arr2 = arr.slice(-1)
+  return arr2
+}
